@@ -1,0 +1,25 @@
+Dataset 'BO06_tox_4_2cat.Rdata' contains pre-processed data related to 377 patients
+from MRC BO06/EORTC 80931 randomized clinical trial for patients with non-metastatic 
+high-grade osteosarcoma.
+
+Covariates
+  - patid: patient's id
+  - cycno: chemotherapy cycle number
+  - age_in: age at randomization
+  - sex: gender at randomization ('female', 'male')
+  - trt: treatment regimen ('Reg-C', 'Reg-DI')
+  - naus: nausea/vomiting (0: none, 1: mild, 2: moderate, 3: severe)
+  - oral: oral toxicity (0: none, 1: mild, 2: moderate, 3: severe)
+  - inf: infection (0: none, 1: mild, 2: moderate, 3: severe)
+  - neur: neurological toxicity (0: no, 1: yes)
+  - oto: ototoxicity (0: no, 1: yes)
+  - car: cardiotoxicity (0: no, 1: yes)
+  - delta: time-varying standardized cumulative chemotherapy dose
+  - WBC: time-varying white blood cell counts
+  - PLT: time-varying platelets counts
+  - NEUT: time-varying neutrophils counts
+  
+Data are not publicly available due to privacy restrictions.
+Access to the full dataset of MRC BO06 trial can be requested to MRC Clinical 
+Trials Unit at UCL, Institute of Clinical Trials and Methodology, UCL, London.
+
