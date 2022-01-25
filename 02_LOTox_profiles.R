@@ -4,10 +4,10 @@
 rm(list=ls())
 library(compositions)
 library(data.table)
-setwd("~/OneDrive - Politecnico di Milano/PhD - Leiden/BO06-LOTox")
+setwd("D:/github/BO06-LOTox")
 load('results/LM_final_M5.Rdata')
 
-source('~/OneDrive - Politecnico di Milano/PhD - Leiden/BO06-LOTox/utils.R')
+source('D:/github/BO06-LOTox/utils.R')
 
 
 # Longitudinal Probability profiles of LOTox (P-LOTox) #

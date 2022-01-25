@@ -3,10 +3,10 @@
 ##########################################################
 rm(list=ls())
 library(data.table)
-library(emdbook)
+#library(emdbook)
 library(LMest)
 library(xtable)
-setwd("~/OneDrive - Politecnico di Milano/PhD - Leiden/BO06-LOTox")
+setwd("D:/github/BO06-LOTox")
 load('data/BO06_tox_4_2cat.Rdata')
 
 # Generic toxicities: naus, inf, oral (j = 1, 2, 3)
