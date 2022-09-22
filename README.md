@@ -23,4 +23,4 @@ Spreafico M., Ieva F. & Fiocco M. (2021). Longitudinal Latent Overall Toxicity (
 - R software.
 - Packages: compositions, data.table, Formula, LMest, xtable.
 
-(Last update: January 25th, 2022)
+(Last update: September 22nd, 2022)
