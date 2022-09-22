@@ -15,8 +15,8 @@ Spreafico M., Ieva F. & Fiocco M. (2021). Longitudinal Latent Overall Toxicity (
   - **02_LOTox_profiles.R**: Computation of both longitudinal Probability profiles of LOTox (P-LOTox) and longitudinal Relative Risk profiles of LOTox (RR-LOTox).
   - **utils.R**: Utils function for longitudinal LOTox profiles computation.
   - **legend_covariates**: Covariates legend.
-- Sub-folder **./data/** contains pre-processed data.
-- Sub-folder **./results/** contains results related to the best LM model (M5), LOTox sequences, P-LOTox and RR-LOTox profiles.
+- Sub-folder **./data/** contains pre-processed data. [Not publicy available due to privacy restrictions]
+- Sub-folder **./results/** contains results related to the best LM model (M5), LOTox sequences, P-LOTox and RR-LOTox profiles. [Not publicy available]
 
 
 ## Software
