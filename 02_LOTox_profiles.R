@@ -39,7 +39,7 @@ prob_vec = acomp(P_LOTox[, c("minor1","low3", "moderate2", "high4")])
 
 # Compute the additive log ratio transform of the compositions prob_t
 # where ivar is the column related to the reference latent state R
-rr_vec = alr(prob_t, ivar=1)
+rr_vec = alr(prob_vec, ivar=1)
 
 # Create RR_LOTox profiles dataset
 RR_LOTox <- cbind(P_LOTox[,.(patid,cycno)], rr_vec)
