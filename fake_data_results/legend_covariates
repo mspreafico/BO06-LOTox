@@ -1,0 +1,27 @@
+Dataset 'fake_dataset.Rdata' in folder data contains fake data related to 75 subjects
+to emulate pre-processed information used within the study.
+Please notice that using these data to run the codes does not reproduce the same results of the paper
+as the data are fake.
+
+Covariates
+  - patid: fake patient's id (index i=1,...,75)
+  - cycno: cycle number (index t=1,...,6)
+  - age:   age at randomization [years]
+  - sex:   gender at randomization ('female', 'male')
+  - trt:   chemotherapy treatment regimen ('Reg-C'; 'Reg-DI')
+  - naus:  nausea/vomiting (j=1) category (0: 'none', 1: 'mild', 2: 'moderate', 3: 'severe')
+  - inf:   infection (j=2) category (0: 'none', 1: 'mild', 2: 'moderate', 3: 'severe')
+  - oral:  oral mucositis (j=3) category (0: 'none', 1: 'mild', 2: 'moderate', 3: 'severe')
+  - car:   cardiotoxicity (j=4) category (0: 'no', 1: 'yes')
+  - oto:   ototoxicity (j=5) category (0: 'no', 1: 'yes')
+  - car:   neurological toxicity (j=6) category (0: 'no', 1: 'yes')
+  - delta: percentage of achieved chemotherapy dose up to cycle t [%]
+  - WBC:   white blood cell count [x10^9/L]
+  - PLT:   platelets count [x10^9/L] 
+  - NEUT:  neutrophils count [x10^9/L] 
+
+
+Data are not publicly available due to privacy restrictions.
+Access to the full datasets can be requested to MRC Clinical Trials Unit at UCL, 
+Institute of Clinical Trials and Methodology, UCL, London.
+

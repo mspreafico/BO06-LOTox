@@ -4,10 +4,21 @@
 rm(list=ls())
 library(compositions)
 library(data.table)
-setwd("D:/github/BO06-LOTox")
-load('results/LM_final_M5.Rdata')
+setwd('~/github/BO06-LOTox/')
+load('results/LM_final_M5.Rdata') # NOT PUBLICY AVAILABLE
 
-source('D:/github/BO06-LOTox/utils.R')
+source('~/github/BO06-LOTox/utils.R')
+
+
+#####################################################################
+# FAKE RESULTS
+#-------------------------------------------------------------------
+# Un-comment next line if you want to use the final model 
+# obtained by 'fake_dataset.Rdata':
+# load('fake_data_results/fake_LM_final_M5.Rdata')
+#-------------------------------------------------------------------
+# WARNING: Results for fake data are different than for original ones
+#####################################################################
 
 
 # Longitudinal Probability profiles of LOTox (P-LOTox) #
@@ -47,4 +58,15 @@ RR_LOTox
 
 #rm(list=setdiff(ls(), c("P_LOTox","RR_LOTox")))
 #save.image('results/LOTox_profiles.Rdata')
+
+
+
+#####################################################################
+# LOTox profiles for FAKE DATA
+#-------------------------------------------------------------------
+# Un-comment the next lines if you want to save the LOTox profiles
+# obtained using 'fake_dataset.Rdata':
+# rm(list=setdiff(ls(), c("P_LOTox","RR_LOTox")))
+# save.image('fake_data_results/fake_LOTox_profiles.Rdata')
+#####################################################################
 

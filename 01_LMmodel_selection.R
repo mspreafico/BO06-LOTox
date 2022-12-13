@@ -3,17 +3,28 @@
 ##########################################################
 rm(list=ls())
 library(data.table)
-#library(emdbook)
 library(LMest)
 library(xtable)
-setwd("D:/github/BO06-LOTox")
-load('data/BO06_tox_4_2cat.Rdata')
+setwd('~/github/BO06-LOTox/')
+load('data/BO06_tox_4_2cat.Rdata') # NOT PUBLICY AVAILABLE
 
 # Generic toxicities: naus, inf, oral (j = 1, 2, 3)
 #   categories: Cj = {0 : none, 1 : mild, 2 : moderate, 3 : severe}
 
 # Drug-specific toxicities: car, oto, neur(j = 4, 5, 6): 
 #   categories: Cj = {0 : no, 1 : yes}
+
+
+#####################################################################
+# FAKE DATA for CODE RUNNING
+#-------------------------------------------------------------------
+# Un-comment next line to run the code on FAKE data
+# load('fake_data_results/fake_dataset.Rdata')
+#-------------------------------------------------------------------
+# WARNING: Results reported in comments are related to MRC BO06 data 
+#          (not publicy available due to privacy restrictions)
+#####################################################################
+
 
 #######################
 # (I) MODEL SELECTION #
@@ -240,6 +251,23 @@ final <- out.final$out.single[[1]]
 #rm(list=setdiff(ls(), c("final")))
 #save.image('results/LM_final_M5.Rdata')
 
+
+#####################################################################
+# RESULTS for FAKE DATA
+#-------------------------------------------------------------------
+# Un-comment the next lines if you want to save the final model 
+# obtained using 'fake_dataset.Rdata':
+# rm(list=setdiff(ls(), c("final")))
+# save.image('fake_data_results/fake_LM_final_M5.Rdata')
+#-------------------------------------------------------------------
+# WARNING: Results for fake data are different than for original ones
+#####################################################################
+
+
+
+#---------------------#
+# FINAL MODEL RESULTS #
+#---------------------#
 # Figure 3: Estimated conditional response probabilities psi_jy|u for the final LM model M5
 final$Psi
 # Based on these results, the following LOTox states labelling were derived:
