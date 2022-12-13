@@ -3,6 +3,9 @@
 Code for implementing **longitudinal Latent Overall Toxicity (LOTox) profiles** analysis applied to MRC BO06 trial in Osteosarcoma.
 
 Data are not publicly available due to confidentiality and privacy restrictions.
+Access to the full dataset of MRC BO06 trial can be requested to MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, UCL, London.
+
+Along with the code a fake dataset is provided in order to allow researchers who want to replicate the same analysis to properly get how the code has to be run and how results are displayed and should be read.
 
 ## Reference
 
@@ -14,13 +17,17 @@ Spreafico M., Ieva F. & Fiocco M. (2021). Longitudinal Latent Overall Toxicity (
   - **01_LMmodel_selection.R**: Selection of the best latent Markov model for longitudinal toxicity data.
   - **02_LOTox_profiles.R**: Computation of both longitudinal Probability profiles of LOTox (P-LOTox) and longitudinal Relative Risk profiles of LOTox (RR-LOTox).
   - **utils.R**: Utils function for longitudinal LOTox profiles computation.
-  - **legend_covariates**: Covariates legend.
-- Sub-folder **./data/** contains pre-processed data. [Not publicy available due to privacy restrictions]
-- Sub-folder **./results/** contains results related to the best LM model (M5), LOTox sequences, P-LOTox and RR-LOTox profiles. [Not publicy available]
+- Sub-folder **./data/** contains pre-processed data. [NOT PUBLICY ACCESSIBLE due to privacy restrictions]
+- Sub-folder **./results/** contains results related to the best LM model (M5), LOTox sequences, P-LOTox and RR-LOTox profiles. [NOT PUBLICY ACCESSIBLE]
+- Sub-folder **./fake_data_results/** contains the fake dataset along with its legend and results:
+	- **fake_dataset.Rdata**: fake dataset related to 75 patients to emulate pre-processed information used within the study;
+	- **legend_covariates.txt**: variables legend;
+  - **fake_LM_final_M5.Rdata**: LM model M5 fitted on the fake dataset;
+  - **fake_LOTox_profiles.Rdata**: LOTox profiles obtained by LM model M5 fitted on the fake dataset.
 
 
 ## Software
 - R software.
 - Packages: compositions, data.table, Formula, LMest, xtable.
 
-(Last update: September 22nd, 2022)
+(Last update: December 13th, 2022)
