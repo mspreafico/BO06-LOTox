@@ -5,7 +5,7 @@ Code for implementing **longitudinal Latent Overall Toxicity (LOTox) profiles** 
 Data are not publicly available due to confidentiality and privacy restrictions.
 Access to the full dataset of MRC BO06 trial can be requested to MRC Clinical Trials Unit at UCL, Institute of Clinical Trials and Methodology, UCL, London.
 
-Along with the code a fake dataset is provided in order to allow researchers who want to replicate the same analysis to properly get how the code has to be run and how results are displayed and should be read.
+Along with the code a fake dataset is provided in order to allow researchers who want to replicate the same analysis to properly get how the code has to be run and how results are displayed.
 
 ## Reference
 
