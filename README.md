@@ -20,7 +20,7 @@ Spreafico M., Ieva F. & Fiocco M. (2021). Longitudinal Latent Overall Toxicity (
 - Sub-folder **./data/** contains pre-processed data. [NOT PUBLICY ACCESSIBLE due to privacy restrictions]
 - Sub-folder **./results/** contains results related to the best LM model (M5), LOTox sequences, P-LOTox and RR-LOTox profiles. [NOT PUBLICY ACCESSIBLE]
 - Sub-folder **./fake_data_results/** contains the fake dataset along with its legend and results:
-	- **fake_dataset.Rdata**: fake dataset related to 75 patients to emulate pre-processed information used within the study;
+	- **fake_dataset.Rdata**: fake dataset related to 75 subjects to emulate pre-processed information used within the study;
 	- **legend_covariates.txt**: variables legend;
   - **fake_LM_final_M5.Rdata**: LM model M5 fitted on the fake dataset;
   - **fake_LOTox_profiles.Rdata**: LOTox profiles obtained by LM model M5 fitted on the fake dataset.
