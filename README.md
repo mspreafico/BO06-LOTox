@@ -30,4 +30,4 @@ Along with the code a fake dataset is provided in order to allow researchers who
 - R software.
 - Packages: compositions, data.table, Formula, LMest, xtable.
 
-(Last update: September 29th, 2024)
+(Last update: October 29th, 2024)
