@@ -3,7 +3,7 @@
 Code for implementing **longitudinal Latent Overall Toxicity (LOTox) profiles** analysis applied to MRC BO06 trial in Osteosarcoma.
 
 ### Reference
-Spreafico M., Ieva F. & Fiocco M. (2024). Longitudinal Latent Overall Toxicity (LOTox) profiles in osteosarcoma: a new taxonomy based on latent Markov models. *Statistical Methods & Applications*. https://doi.org/10.1007/s10260-024-00767-9
+Spreafico M., Ieva F. & Fiocco M. (2024). Longitudinal Latent Overall Toxicity (LOTox) profiles in osteosarcoma: a new taxonomy based on latent Markov models. *Statistical Methods & Applications*, 33:1451-1482. https://doi.org/10.1007/s10260-024-00767-9
 
 ### Data Availability
 Data are not publicly available due to confidentiality and privacy restrictions.
